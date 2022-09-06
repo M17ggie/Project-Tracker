@@ -1,0 +1,71 @@
+.calendarContainer {
+  height: 93vh;
+  overflow: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.fc {
+  background: rgb(243 243 243);
+  height: 100%;
+  width: 80%;
+}
+
+.calendarContainer > .buSelector {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  height: 2rem;
+  width: 4rem;
+  padding: 0;
+}
+
+.fc-event-time{
+  display: none;
+}
+
+.fc-event-main{
+  padding-left: 10px;
+}
+
+.fc-event-title{
+  font-size: 20px;
+
+}
+
+
+.fc-event-title-container{
+  height:26px;
+}
+
+.inProgress{
+background-color: blue;
+border-style: ridge;
+width: 300px;
+font-size: 0.5cm;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 10px;
+}
+
+.notInitiated{
+background-color: red;
+border-style: ridge;
+width: 300px;
+font-size: 0.5cm;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.testLinkShared{
+  background-color: green;
+  border-style: ridge;
+  width: 300px;
+  font-size: 0.5cm;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 10px;
+  margin-top: 10px;
+  }
