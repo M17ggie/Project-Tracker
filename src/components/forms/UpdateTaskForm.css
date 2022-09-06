@@ -1,0 +1,30 @@
+.taskDetailContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* border: 1px solid; */
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.fetchButton {
+  font-size: 1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #707070;
+  border-radius: 2px;
+  width: 100%;
+  padding: 1rem;
+  background: #f6f6f6;
+  cursor: pointer;
+}
+
+.form.updateForm {
+  border-top: none;
+}
+
+b {
+  font-weight: 500;
+}
