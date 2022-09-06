@@ -1,0 +1,95 @@
+.tableContainer {
+  overflow: scroll;
+  margin: 1rem;
+  background: #fff;
+  max-height: 85vh;
+  padding: 10px 0 0 10px;
+}
+
+.filterContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 1rem;
+}
+
+.buSelector {
+  width: 10rem;
+  height: 100%;
+  margin: 0;
+}
+
+.table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0;
+}
+
+.table td,
+.table th {
+  border: 1px solid #838383;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+}
+
+.table tr:nth-child(even) {
+  background-color: #dadada;
+}
+
+.table tr:hover {
+  background-color: rgb(243, 243, 243);
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #ff4a4a;
+  color: white;
+  position: relative;
+}
+
+.filterSpan > input,
+.filterSpan > select {
+  padding: 5px 0;
+  width: auto;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.sortContainer {
+  display: flex;
+  width: 4rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+}
+
+.sortContainer > input {
+  height: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.toggle-column{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.toggle-column div{
+  border: 1px solid grey;
+  width: calc(100%/5)
+}
+
+.date-input{
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+
+.date-range{
+  width: 50%;
+}
