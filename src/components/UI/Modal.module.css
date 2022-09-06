@@ -1,0 +1,63 @@
+.card {
+    padding: 2.5rem;
+    border-radius: 12px;
+    width: 50%;
+    height: 75vh;
+    position: fixed;
+    z-index: 10;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    animation: modal 0.25s forwards ease-in-out;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.75);
+    animation: backdrop 0.15s forwards ease-in-out;
+}
+
+.close-btn {
+    animation: close-btn 0.15s forwards ease-in-out;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: scale(0.75);
+        transform: translateX(-50%);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes backdrop {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes close-btn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
